@@ -1,0 +1,163 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+body{
+    background-color: rgb(73,73,73);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.application{
+   
+    display:flex;
+    justify-content: center;
+}
+.application_constainer{
+    width: 1466;
+}
+.application_box{
+    display:flex;
+    align-items: center;
+    margin:25px;
+    background-color:white;
+    width: 1416px;
+    height: 50px;
+    border-radius: 6px;  
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.78);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.application_box:hover{
+    transition: 0.2s;
+    background-color :rgb(178, 255, 171)
+}
+.application_id{
+    min-height: 50px;
+    width: 40px;
+    color: white;
+    background-color:rgb(62, 114, 226) ;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:0  3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid rgb(150, 150, 150);
+}
+.application_title{
+    display:flex;
+    align-items:center;
+    min-width: 600px;
+    padding: 0 5px;
+    border-right: 1px solid rgb(150, 150, 150);
+    height: 100%;
+}
+.application_category{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 274px;
+    padding: 0 5px;
+    border-right: 1px solid rgb(150, 150, 150);
+    height: 100%;
+}
+.application_author,.application_date, .application_time{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 100px;
+    padding: 0 5px;
+    border-right: 1px solid rgb(150, 150, 150);
+    height: 100%;
+}
+.application_author{
+    width: 150px;
+}
+.application_status{
+    color:white;
+    width: 80px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 0 5px;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.open{
+    background-color:rgb(141, 0, 0);
+}
+.close{
+    background-color:rgb(116, 172, 33) ;
+}
+.work{
+    background-color:orange ;
+}
+.application-create-button{
+    font-style: bold;
+    color:white;
+    background-color:rgb(62, 114, 226);
+    cursor: pointer ;
+    width: 300px;
+    height: 50px;
+  margin-top: 25px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.78);
+  transition: 0.4s;
+}
+.application-create-button:hover{
+    transition: 0.4s;
+    background-color:rgb(28, 82, 197);
+}
+
+.application_box_description{
+    display:flex;
+    align-items: center;
+    margin:25px;
+    color:white !important;
+    background-color:rgb(62, 114, 226) !important;
+    width: 1416px;
+    height: 50px;
+    border-radius: 5px;  
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.78);
+}
+.application_menu{
+    display:flex;
+    flex-direction: column;
+    
+}
+.select_id{
+   
+    text-align: center;
+    margin-top: 10px;
+    width: 300px;
+    padding: 0;
+    height: 50px;
+    border-radius:5px;
+    border: none;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.78);
+}
+.select_id:hover{
+    transition: 0.4s;
+    background-color:rgb(231, 231, 231);
+}
+.checkMe{
+    background-color:rgba(223, 221, 119, 0.986);
+}
+.select_id:focus{
+    outline: none;
+    background-color:rgb(231, 231, 231);
+}
+.menu-container-element{
+    max-width: 300px;
+}
+.a_null:active, /* активная/посещенная ссылка */
+.a_null:hover,  /* при наведении */
+.a_null {
+  text-decoration: none;
+  color: black !important;
+}

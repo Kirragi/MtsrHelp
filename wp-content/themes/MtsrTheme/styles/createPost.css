@@ -1,0 +1,104 @@
+.create_post{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    justify-content: center;
+  
+    margin-top: 50px;
+   margin-bottom: 50px;
+}
+.form_add_post{
+    margin-left: 25px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.78);
+    border-radius:10px;
+  background-color:white;
+    width:500px;
+}
+#usp_form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.usp-input,.usp-select{
+    width: 100%!important;
+    height: 40px;
+    resize: none;
+    padding: 10px;
+    background-color:aliceblue;
+    border-radius:5px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top:  10px !important;;
+}
+#user-submitted-custom-2{
+    height: 250px;
+    width: 380px !important;
+}
+.usp-title,.usp-custom-2,.usp-category,.usp-images{
+    width: 400px;
+}
+#usp-upload-message{
+    display: none !important;
+}
+fieldset{
+    margin:15px 0 0 0 !important;
+    /* padding: 0!important; */
+}
+.usp-clone{
+    visibility: hidden !important;
+    width: 0px !important;
+    height: 0px !important;
+    margin: 0;
+    padding: 0;
+}
+.usp-file-preview{
+    display: none !important;
+}
+.formImgPostBtn{
+    text-align: center;
+    margin-top: 15px !important;
+    padding-top: 10px !important;
+    width: 400px !important;
+}
+.usp-submit{
+    border:none;
+    color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(62, 114, 226); 
+    border-radius: 5px;
+    transition: 1s;
+    width: 400px;
+    height: 40px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.78);
+    margin-top: 10px;
+}
+.header_create_post{
+    background-color:rgb(62, 114, 226);
+    width: 100%;
+    height:50px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    -webkit-user-select: none;
+    user-select: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.plusImg{
+    margin-left: 45% !important;
+    font-size: 33px!important;
+    color: white !important;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(62, 114, 226);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.78);
+}
